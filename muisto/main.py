@@ -206,6 +206,8 @@ direction: "top"
             f.write(templateOfHead1)
             f.write(script)
             f.write(templateOfHead2.replace("{0}", generateButtons(config)))
+            global muistoFlag
+            muistoFlag = False
             for i, line in enumerate(lines):
                 f.write(generateHTML(i, line, fileName))
             f.write(f"""
@@ -345,6 +347,7 @@ def convertMuistoCodes(fileName):
 <li class="shareList-item"><a class="icon icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://mamoruitoi.github.io/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
 </ul>
 """.format(cover, title, date, place, writer, mode, tags, data[fileName]["title"], config["top"]["name"], config["top"]["title"], config["top"]["url"]+fileName)
+    print(templateOfData)
     return templateOfData
 
 def generateIndexPages():
