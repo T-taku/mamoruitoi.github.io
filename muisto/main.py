@@ -160,7 +160,7 @@ def generateFiles():
 <meta name="twitter:site" content="@{twitter}">
 <meta property="og:url" content="{url}{fileName}.html">
 <meta property="og:title" content="{title}">
-<meta property="og:image" content="img/{cover}">
+<meta property="og:image" content="{url}img/{cover}">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 </head>
 <body>
@@ -386,7 +386,7 @@ def generateIndexPages():
 <meta name="twitter:site" content="@{twitter}">
 <meta property="og:url" content="{url}{fileName}.html">
 <meta property="og:title" content="{title}">
-<meta property="og:image" content="../img/{cover}">
+<meta property="og:image" content="{url}img/{cover}">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 </head>
 <body>
@@ -487,7 +487,7 @@ direction: "top"
 <meta name="twitter:site" content="@{twitter}">
 <meta property="og:url" content="{url}{fileName}.html">
 <meta property="og:title" content="{title}">
-<meta property="og:image" content="../img/{cover}">
+<meta property="og:image" content="{url}img/{cover}">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 </head>
 <body>
