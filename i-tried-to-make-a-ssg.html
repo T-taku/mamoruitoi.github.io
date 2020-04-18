@@ -1,0 +1,120 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="./muisto/prettify.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+<link rel="stylesheet" href="./muisto/themes/muisto_light/main.css" type="text/css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,600,700|Lato&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
+
+<title>今日はいい天気なのでSSGを自作してみた。</title>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MamoruItoi">
+<meta property="og:url" content="https://mamoruitoi.github.io/i-tried-to-make-a-ssg.html">
+<meta property="og:title" content="今日はいい天気なのでSSGを自作してみた。">
+<meta property="og:image" content="https://mamoruitoi.github.io/img/muisto-logo.png">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="left">
+<div class="logo">
+<a href="https://mamoruitoi.github.io/" target="_blank"><img src="img/oblivion-logo.png" width="auto" height="100%"></a>
+</div>
+<div class="title">
+<h1>学生Pythonプログラマの日常</h1>
+</div>
+</div>
+<div class="right">
+<ul class="sns">
+<li><a href="https://twitter.com/MamoruItoi" target="_blank"><img src="https://mamoruitoi.github.io/img/twitter.png" width="auto" height="70%"></a></li>
+<li><a href="https://github.com/mamoruitoi" target="_blank"><img src="https://mamoruitoi.github.io/img/github.png" width="auto" height="70%"></a></li>
+</ul>
+</div>
+</div>
+</header>
+<div class="main">
+<div class="fixed-action-btn">
+<a class="btn-floating btn-large blue"><i class="material-icons button-color">bubble_chart</i></a>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+var elems = document.querySelectorAll(".fixed-action-btn");
+var instances = M.FloatingActionButton.init(elems, {
+direction: "top"
+});
+});
+</script>
+
+<ul class="google">
+<li><a href="https://mamoruitoi.github.io/index.html" class="btn-floating red lighten-2"><i class="material-icons">home</i></a></li>
+<li><a href="https://mamoruitoi.github.io/modes/about.html" class="btn-floating amber lighten-2"><i class="material-icons">account_circle</i></a></li>
+<li><a href="https://mamoruitoi.github.io/modes/code.html" class="btn-floating teal lighten-2"><i class="material-icons">build</i></a></li>
+<li><a href="https://mamoruitoi.github.io/modes/blog.html" class="btn-floating blue lighten-2"><i class="material-icons">event</i></a></li>
+<li><a href="https://mamoruitoi.github.io/modes/news.html" class="btn-floating purple lighten-3"><i class="material-icons">explore</i></a></li>
+
+</ul>
+</div>
+
+<img src="img/muisto-logo.png" width="95%" height="auto">
+<h1><span>今日は</span><span>いい</span><span>天気なので</span><span>SSGを</span><span>自作して</span><span>みた</span><span>。</span></h1>
+<p class="data"><span class="date">April 18, 2020</span><span class="place"><i class="tiny material-icons">location_on</i>Tokyo</span><span class="writer"><i class="tiny material-icons">create</i>Mamoru Itoi</span><br>
+<a href="https://mamoruitoi.github.io/"><span class="mode">blog</span></a><a href="学生Pythonプログラマの日常tags/Muisto.html"><span class="tag">Muisto</span></a><a href="学生Pythonプログラマの日常tags/Web.html"><span class="tag">Web</span></a><a href="学生Pythonプログラマの日常tags/Design.html"><span class="tag">Design</span></a>
+<hr color="#103670">
+<ul class="shareList">
+<li class="shareList-item"><i class="small material-icons">share</i></li>
+<li class="shareList-item"><a class="icon icon-twitter" href="https://twitter.com/intent/tweet?text=今日はいい天気なのでSSGを自作してみた。%20-%20Oblivion%20学生Pythonプログラマの日常%0Ahttps://mamoruitoi.github.io/i-tried-to-make-a-ssg.html" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+<li class="shareList-item"><a class="icon icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://mamoruitoi.github.io/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+</ul>
+<p>※SSG……静的サイトジェネレータ（Static Site Generator）。Markdownファイルをぶち込むと綺麗なHTMLになって返ってくる魔法のソフトウェア。</p>
+<h2><span>おことわり</span></h2>
+<p>今日は雨です。釣りタイトルで申し訳ございません。</p>
+<h2><span>君の</span><span>名は</span><span>。</span></h2>
+<p>糸井主歩（いとい・まもる）です。今日15歳になったホモ・サピエンス。普段はPythonとかを書いています。<a href="https://jr.mitou.org/" target="_blank">未踏ジュニア</a>2019とか、<a href="https://student-lt.tech/" target="_blank">学生LT</a>とか。休校中でともかく暇。課題はあるがやる気は起こらない。<a href="https://twitter.com/MmoaruItoi" target="_blank">Twitter</a>をフォローするととーっても喜びます。</p>
+<h2><span>静的</span><span>サイトジェネレータを</span><span>作ったよ</span></h2>
+<h3><span>あらすじ</span><span>（〜</span><span>2019年末）</span></h3>
+<p>西暦2018年から2019年にかけて、ワタクシはブログを生のHTMLで書いておりました。つまり、ブログをひとつ書くたびにHTMLファイルを<html>から</html>まで書いていたわけなんですね。馬鹿ですねー。そりゃ半年更新ゼロになるわけだ。</p>
+<p>というわけで、静的サイトジェネレータを使うことにしました。静的サイトジェネレータにはJekyllとかHugoとか有名なものがいくつもありますが、英語のリファレンスを読むのがダルかったので自作することにしました（ん？　日本語版リファレンスがあるって？　作っちまったんだからしょーがねーだろ）。</p>
+<p>（このとき人類は知らなかった。……自作の方が、はるかにダルいということを。）</p>
+<p>ちなみに僕はコードを1行も書かずに企画倒れしても名前は決めるタイプです。この静的サイトジェネレータは「Muisto（ムイスト）」という名前にしました。フィンランド語で「記憶」という意味です。</p>
+<p>人の記憶って、コンピュータのメモリ上の記録とはまったく違うものだと思うんです。記憶と感情が結びついていたり、情景そのものが記憶だったり。そういう記憶をとっておけるようなブログを作りたくてこの名前にしました。とか偉そうに書いたけどそんな深いことは考えてない。なんでフィンランド語かというと、僕が好きな<a href="https://ja.wikipedia.org/wiki/膠着語" target="_blank">膠着語</a>だからです。</p>
+<h3><span>生成</span><span>コードを</span><span>書く</span><span>（1月</span><span>〜</span><span>2</span><span>月）</span></h3>
+<p>Markdownは一応仕様があるので、仕様書を見ながらひとつひとつその変換処理をPythonで実装していきます。例えば <strong>太字</strong> は文字をアスタリスク2つでサンドするとか、<a href="https://i.pinimg.com/600x315/bc/11/47/bc11476d486532cea87974cf0e42f119.jpg" target="_blank">リンク</a>は大カッコとカッコを使うとか、そういうの。</p>
+<p>（このとき人類は知らなかった。……Pythonにmarkdownという変換ライブラリがあるということを。）</p>
+<h3><span>デザインを</span><span>整える</span><span>（3</span><span>月）</span></h3>
+<p>CSSでうじゃうじゃやります。フォントはNoto Sans JPとFutura。Futuraっていいよね。そして今回頑張ったのが「Muisto Codes」というシステムです。「@link: "ファイル名"」と書くと、そのファイルへの綺麗なリンクを作ってくれたりします。↓こういうの。</p>
+
+<a href="https://mamoruitoi.github.io/i-tried-to-make-a-ssg.html">
+<div class="link">
+<div class="img">
+<img src="https://mamoruitoi.github.io/img/muisto-logo.png" width="auto" height="100%">
+</div>
+<div class="title">
+<p>今日はいい天気なのでSSGを自作してみた。</p>
+<p class="data">blog / April 18, 2020</p>
+</div>
+</div>
+</a>
+<h3><span>スパゲッティに</span><span>なる</span><span>（4</span><span>月）</span></h3>
+<p>うぎゃー、コードが複雑になっちまったー、となってコードの構造を根本的に変えました（おとといの話）。まだ汚いけどね。</p>
+<p>あと、サイト名の「Oblivion」というのは「忘却」という意味の英語です。ジェネレータ名と対照的な感じ、いいでしょ。</p>
+<p>おとといあたりに「誕生日に公開してーなー」「『今日はいい天気なので〜』というタイトルで雨の日に公開したら面白いだろうな」となど思っていたら誕生日が雨だったという奇跡。今日公開です。<a href="https://mamoruitoi.github.io/muisto" target="_blank">GitHubレポジトリ</a>で公開しています。よかったら見てね。</p>
+<h2><span>あとがき</span></h2>
+<p>右下のナビゲーションバークリックしたらわかると思うけど、モードごとに記事のインデックスページが自動で生成されるようになっています。だけどまだ全然記事を書いていないのでデザイン絶賛崩れ中です。たくさん書いていけばブログサイトっぽくなると思うので頑張って書く。よろしく。</p>
+
+</div>
+<footer>
+<p>©2020 Mamoru Itoi<br><a href="https://twitter.com/MamoruItoi" target="_blank">Twitter</a></p>
+</footer>
+</body>
+</html>
