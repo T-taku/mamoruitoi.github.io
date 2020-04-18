@@ -579,7 +579,7 @@ def generateLink(fileName):
 def generateTags(tags):
     result = ""
     for tag in tags:
-        result += "<a href=\"{0}tags/{1}.html\"><span class=\"tag\">{1}</span></a>".format(config["top"]["title"], tag)
+        result += f"<a href=\"./tags/{tag}.html\"><span class=\"tag\">{tag}</span></a>"
     return result
 
 #フローティングボタンのリンクを生成
