@@ -81,8 +81,8 @@ p span.tag {
 }
 
 p span.tag:hover {
-  color: #204680;
-  border-color: #204680;
+  color: #545d87;
+  border-color: #545d87;
 }
 
 p span.mode {
@@ -91,7 +91,7 @@ p span.mode {
 }
 
 p span.mode:hover {
-  color: #3056a0;
+  color: #545d87;
 }
 
 strike {
