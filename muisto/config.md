@@ -5,7 +5,7 @@
 @color: "red lighten-2"
 @writer: "Mamoru Itoi"
 @place: "Tokyo"
-@url: "file:///Users/mamoruitoi/muisto/"
+@url: "https://mamoruitoi.github.io/"
 @name: "Oblivion"
 @fav: "favicon.ico"
 @twitter: "MamoruItoi"
