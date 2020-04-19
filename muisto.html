@@ -1,0 +1,109 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="./muisto/prettify.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+<link rel="stylesheet" href="./muisto/themes/muisto_light/main.css" type="text/css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,600,700|Lato&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
+<title>Python製静的サイトジェネレータ「Muisto」</title>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MamoruItoi">
+<meta property="og:url" content="https://mamoruitoi.github.io/muisto.html">
+<meta property="og:title" content="Python製静的サイトジェネレータ「Muisto」">
+<meta property="og:image" content="https://mamoruitoi.github.io/img/muisto-logo.png">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="left">
+<div class="logo">
+<a href="https://mamoruitoi.github.io/"><img src="img/oblivion-logo.png" width="auto" height="100%"></a>
+</div>
+<div class="title">
+<h1>学生Pythonプログラマの日常</h1>
+</div>
+</div>
+<div class="right">
+<ul class="sns">
+<li><a href="https://twitter.com/MamoruItoi" target="_blank"><img src="https://mamoruitoi.github.io/img/twitter.png" width="auto" height="70%"></a></li>
+<li><a href="https://github.com/mamoruitoi" target="_blank"><img src="https://mamoruitoi.github.io/img/github.png" width="auto" height="70%"></a></li>
+</ul>
+</div>
+</div>
+</header>
+<div class="main">
+<div class="fixed-action-btn">
+<a class="btn-floating btn-large blue"><i class="material-icons button-color">bubble_chart</i></a>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+var elems = document.querySelectorAll(".fixed-action-btn");
+var instances = M.FloatingActionButton.init(elems, {
+direction: "top"
+});
+});
+</script>
+<ul class="google">
+<li><a href="https://mamoruitoi.github.io/index.html" class="btn-floating red lighten-2"><i class="material-icons">home</i></a></li>
+<li><a href="https://mamoruitoi.github.io/modes/code.html" class="btn-floating teal lighten-2"><i class="material-icons">build</i></a></li>
+<li><a href="https://mamoruitoi.github.io/modes/blog.html" class="btn-floating blue lighten-2"><i class="material-icons">event</i></a></li>
+<li><a href="https://mamoruitoi.github.io/modes/news.html" class="btn-floating purple lighten-3"><i class="material-icons">explore</i></a></li>
+
+</ul>
+</div>
+<img src="img/muisto-logo.png" width="95%" height="auto">
+<h1><span>Python製</span><span>静的</span><span>サイトジェネレータ</span><span>「Muisto」</span></h1>
+<p class="data"><span class="date">April 19, 2020</span><span class="place"><i class="tiny material-icons">location_on</i>Tokyo</span><span class="writer"><i class="tiny material-icons">create</i>Mamoru Itoi</span><br>
+<a href="https://mamoruitoi.github.io/"><span class="mode">code</span></a><a href="./tags/Muisto.html"><span class="tag">Muisto</span></a><a href="./tags/Web.html"><span class="tag">Web</span></a><a href="./tags/Design.html"><span class="tag">Design</span></a>
+<hr color="#103670">
+<ul class="shareList">
+<li class="shareList-item"><i class="small material-icons">share</i></li>
+<li class="shareList-item"><a class="icon icon-twitter" href="https://twitter.com/intent/tweet?text=Python製静的サイトジェネレータ「Muisto」%20-%20Oblivion%20学生Pythonプログラマの日常%0Ahttps://mamoruitoi.github.io/muisto.html" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+<li class="shareList-item"><a class="icon icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://mamoruitoi.github.io/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+</ul><h2><span>概要</span></h2>
+<p>Markdownでファイルを書くと、HTMLに自動で変換してくれるソフトウェアです。ブログサイトとか用。このWebサイトもMuistoでつくりました。<a href="https://github.com/mamoruitoi/muisto" target="_blank">GitHubレポジトリ</a>からダウンロードできます。</p>
+<p>ブログ的なことはこっちの記事をご覧ください。</p>
+
+<a href="https://mamoruitoi.github.io/i-tried-to-make-a-ssg.html">
+<div class="link">
+<div class="img">
+<img src="https://mamoruitoi.github.io/img/muisto-logo.png" width="auto" height="100%">
+</div>
+<div class="title">
+<p>今日はいい天気なのでSSGを自作してみた。</p>
+<p class="data">blog / April 18, 2020</p>
+</div>
+</div>
+</a><h2><span>機能</span></h2>
+<h3><span>Markdownを</span><span>HTMLに</span><span>変換</span></h3>
+<p>Markdownを書くとHTMLに変換します。</p>
+<h3><span>見出しを</span><span>span</span></h3>
+<p>見出しを形態素解析して文節に分解することで、中途半端な改行を防ぎます。</p>
+<h3><span>独自</span><span>システム</span><span>「Muisto</span><span>&nbsp;</span><span>Codes」</span></h3>
+<p>Markdownファイルの最初（ホントはどこに書いてもいいんだけど）に「@cover: "image.png"」とか書くとそれをカバー画像に設定してくれたり、ブログの途中で「@link: "article"」と書くとそのファイルへの綺麗でnoteチックなリンクを生成してくれたりします（上のリンクも自動生成）。</p>
+<h3><span>インデックス</span><span>ページの</span><span>生成</span></h3>
+<p>「ブログ」「プレスリリース」「自分のプログラムの紹介」などの「モード」を作り、モードごとに共通のカバー画像とかをconfig.mdに書いて設定しておくことができます。また、モードごとに目次ページが自動生成されます。</p>
+<h3><span>その他</span><span>雑多な</span><span>機能</span></h3>
+<li>Twitterカードと共有ボタンの自動生成</li>
+<li>2本の全角ダッシュ（小説とかに出てくるこれ→——）が繋がって見えるように調整</li>
+<li>先述の綺麗なリンクで、長いタイトルは三点リーダで省略</li>
+</ul>
+<h2><span>開発</span><span>期間</span></h2>
+<p>2019年12月 - 2020年4月</p>
+
+</div>
+<footer>
+<p>©2020 Mamoru Itoi<br><a href="https://twitter.com/MamoruItoi" target="_blank">Twitter</a></p>
+</footer>
+</body>
+</html>
