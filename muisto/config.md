@@ -1,5 +1,5 @@
 @theme: "muisto_light"
-@cover: "oblivion.png"
+@cover: "header-2.png"
 @title: "学生Pythonプログラマの日常"
 @icon: "home"
 @color: "red lighten-2"
@@ -11,13 +11,6 @@
 @twitter: "MamoruItoi"
 @github: "mamoruitoi"
 @logo: "oblivion-logo.png"
-
-# about
-@icon: "account_circle"
-@color: "amber lighten-2"
-@cover: "header.png"
-@theme: "muisto_light"
-@writer: "Mamoru Itoi"
 
 # code
 @icon: "build"
