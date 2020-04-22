@@ -14,21 +14,21 @@
 
 # code
 @icon: "build"
-@color: "teal lighten-2"
+@color: "amber lighten-2"
 @cover: "header.png"
 @theme: "muisto_light"
 @writer: "Mamoru Itoi"
 
 # blog
 @icon: "event"
-@color: "blue lighten-2"
+@color: "teal lighten-2"
 @cover: "header.png"
 @theme: "muisto_light"
 @writer: "Mamoru Itoi"
 
 # news
 @icon: "explore"
-@color: "purple lighten-3"
+@color: "blue lighten-2"
 @cover: "header.png"
 @theme: "muisto_light"
 @writer: "Mamoru Itoi"

@@ -2,7 +2,7 @@
 @title: "Python製静的サイトジェネレータ「Muisto」"
 @date: "1700-0419-2020"
 @mode: "code"
-@tags: "Muisto|Web|Design"
+@tags: "Muisto"
 
 # 概要
 Markdownでファイルを書くと、HTMLに自動で変換してくれるソフトウェアです。ブログサイトとか用。このWebサイトもMuistoでつくりました。[GitHubレポジトリ](https://github.com/mamoruitoi/muisto)からダウンロードできます。

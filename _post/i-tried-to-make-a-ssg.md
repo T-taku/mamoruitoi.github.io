@@ -2,7 +2,7 @@
 @title: "今日はいい天気なのでSSGを自作してみた。"
 @date: "1500-0418-2020"
 @mode: "blog"
-@tags: "Muisto|Web|Design"
+@tags: "Muisto"
 
 ※SSG……静的サイトジェネレータ（Static Site Generator）。Markdownファイルをぶち込むと綺麗なHTMLになって返ってくる魔法のソフトウェア。
 # おことわり
