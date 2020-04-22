@@ -132,8 +132,12 @@ img {
 }
 
 ul:not(.sns):not(.shareList):not(.google) li:not(.l0):not(.l1):not(.L2):not(.L3):not(.L4):not(.L5):not(.L6):not(.L7):not(.L8):not(.L9):before {
-  content: "●";
+  content: "・";
   color: #545d87;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-feature-settings: "palt";
+  font-size: 14px;
+  font-weight: 400;
 }
 
 ol:not(.linenums) {
