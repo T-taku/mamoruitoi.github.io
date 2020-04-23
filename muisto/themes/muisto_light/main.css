@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  color: #545d87;
+  color: #005b7a;
   font-family: 'Noto Sans JP', sans-serif;
   font-feature-settings: "palt";
   font-size: 28px;
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  color: #545d87;
+  color: #005b7a;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 700;
   font-feature-settings: "palt";
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-  color: #848db7;
+  color: #e4c76f;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -34,7 +34,7 @@ h3 {
 }
 
 p {
-  color:#1d1d1f;
+  color: #3c4342;
   font-family: 'Noto Sans JP', sans-serif;
   font-feature-settings: "palt";
   font-size: 14px;
@@ -44,7 +44,7 @@ p {
 }
 
 p.data {
-  color: #545d87;
+  color: #005b7a;
   font-family: Futura, Lato, 'Noto Sans JP', sans-serif;
   font-weight: 500;
   margin: 0;
@@ -56,7 +56,7 @@ p.data span {
 }
 
 p span.date {
-  color: #103670;
+  color: #3c4342;
 }
 
 span.place i {
@@ -70,25 +70,24 @@ span.writer i {
 p span.tag {
   padding: 0px 7px;
   font-size: 16px;
-  color: #103670;
-  background-color: #fcfcfc;
+  color: #3c4342;
   border-radius: 8px;
   transition: 0.2s;
   border: solid 1px #103670;
 }
 
 p span.tag:hover {
-  color: #e9e5eb;
-  border-color: #e9e5eb;
+  color: #005b7a;
+  border-color: #005b7a;
 }
 
 p span.mode {
-  color: #103670;
+  color: #3c4342;
   text-decoration: underline;
 }
 
 p span.mode:hover {
-  color: #e9e5eb;
+  color: #005b7a;
 }
 
 strike {

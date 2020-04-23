@@ -543,8 +543,8 @@ def generateLink(fileName):
     mode = data[fileName]["mode"]
     date = translate(data[fileName]["date"][5:7]) + " " + data[fileName]["date"][7:9] + ", " + data[fileName]["date"][10:]
     templateOfLink = """
-<a href="{0}{1}.html">
 <div class="link">
+<a href="{0}{1}.html">
 <div class="img">
 <img src="{0}img/{2}" width="auto" height="100%">
 </div>
@@ -552,8 +552,8 @@ def generateLink(fileName):
 <p>{3}</p>
 <p class="data">{4} / {5}</p>
 </div>
-</div>
-</a>""".format(url, fileName, cover, title, mode, date)
+</a>
+</div>""".format(url, fileName, cover, title, mode, date)
     return templateOfLink
 
 #タグのインデックスページへのリンクのHTMLを生成
