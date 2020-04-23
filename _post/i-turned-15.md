@@ -1,4 +1,4 @@
-@cover: "oblivion.png"
+@cover: "header-stairs.png"
 @title: "15歳になったらしい。"
 @date: "1900-0418-2020"
 @mode: "blog"
