@@ -357,8 +357,8 @@ i.fab {
 /* Code */
 code.prettyprint, pre.prettyprint {
   width: 100%;
-  background-color: #545d87;
-  border: solid 10px #545d87;
+  background-color: #005b7a;
+  border: solid 10px #005b7a;
   margin: 20px 0px;
   padding: 0px;
   overflow: scroll;
@@ -367,7 +367,7 @@ code.prettyprint, pre.prettyprint {
 
 ol li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
   z-index: 0;
-  background-color: #545d87;
+  background-color: #005b7a;
   margin-left: -35px;
 }
 
