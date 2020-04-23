@@ -73,7 +73,7 @@ p span.tag {
   color: #3c4342;
   border-radius: 8px;
   transition: 0.2s;
-  border: solid 1px #103670;
+  border: solid 1px #3c4342;
 }
 
 p span.tag:hover {
@@ -104,7 +104,7 @@ span {
 }
 
 span.inline-code {
-  background-color: #eae5ec;
+  background-color: #e4c76f;
   border-radius: 3px;
   padding: 0 3px;
   font-family: Menlo, Monaco, monospace;
@@ -127,12 +127,12 @@ img {
 }
 
 .button-color {
-  background-color: #545d87;
+  background-color: #005b7a;
 }
 
 ul:not(.sns):not(.shareList):not(.google) li:not(.l0):not(.l1):not(.L2):not(.L3):not(.L4):not(.L5):not(.L6):not(.L7):not(.L8):not(.L9):before {
   content: "・ ";
-  color: #545d87;
+  color: #005b7a;
   font-family: 'Noto Sans JP', sans-serif;
   font-feature-settings: "palt";
   font-size: 14px;
@@ -146,7 +146,7 @@ ol:not(.linenums) {
 }
 
 ol:not(.linenums) li:before {
-    color: #545d87;
+    color: #005b7a;
     font-family: Futura, Lato, sans-serif;
     counter-increment: li;
     content: counter(li) ". ";
@@ -185,6 +185,8 @@ header {
   display: inline-block;
   margin: 0 auto;
   position: relative;
+  top: 50%;
+  left: 50%;
 }
 
 .logo img {
