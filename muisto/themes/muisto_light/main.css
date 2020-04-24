@@ -1,6 +1,7 @@
 /* Main */
 body {
   background-color: #fff;
+  overflow: hidden;
 }
 
 h1 {
