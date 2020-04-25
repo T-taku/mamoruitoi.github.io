@@ -229,6 +229,7 @@ def generateHTML(i, md, fileName):
     horizontalRule = re.search("^(-|\*|_){3,}$", md)
     discList = re.search("^(\*|\+|-) (.+)$", md)
     decimalList = re.search("\d\. (.+)$", md)
+    htmlTag = re.search("^(\s)*<", md)
     p = re.search("(.+)", md)
     #Muisto Codes
     if muistoCode:
@@ -301,6 +302,9 @@ def generateHTML(i, md, fileName):
     #水平線
     elif horizontalRule:
         return "<hr color=\"#333\">\n"
+    #HTMLタグ
+    elif htmlTag:
+        return md + "\n"
     #本文
     elif p:
         result = "<p>" + p.group(1) + "</p>\n"
