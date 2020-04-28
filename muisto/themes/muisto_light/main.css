@@ -135,6 +135,7 @@ blockquote {
     font-style: italic;
     color: #464646;
     background: #e0e0e0;
+    border-left: none;
 }
 
 blockquote:before{
