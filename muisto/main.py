@@ -22,6 +22,7 @@ muistoFlag = False
 isInCode = False
 lines = []
 
+
 def main():
     about, configLines = generateRequiredFiles()
     convertConfig(configLines)
@@ -229,6 +230,7 @@ def generateHTML(i, md, fileName):
     horizontalRule = re.search("^(-|\*|_){3,}$", md)
     discList = re.search("^(\*|\+|-) (.+)$", md)
     decimalList = re.search("\d\. (.+)$", md)
+    blockquote = re.search("^> (.+)$", md)
     htmlTag = re.search("^(\s)*<", md)
     p = re.search("(.+)", md)
     #Muisto Codes
@@ -244,7 +246,7 @@ def generateHTML(i, md, fileName):
     #コード・リストの開始・終了処理
     elif md == "\n":
         result = ""
-        #コード・リストの終了処理
+        #コード・リスト・引用の終了処理
         #コード終了
         if re.search("^```", lines[i-1]):
             isInCode = False
@@ -255,8 +257,11 @@ def generateHTML(i, md, fileName):
         #decimal型リスト終了
         if re.search("\d\. (.+)", lines[i-1]):
             result += "</ol>\n"
-        #コード・リストの開始処理
-        #コードの開始処理
+        #引用終了
+        if re.search("^> (.+)", lines[i-1]):
+            result += "</blockquote>\n"
+        #コード・リスト・引用の開始
+        #コードの開始
         code = re.search("^(`){3}([^\:]*)\:", lines[i+1])
         if code:
             isInCode = True
@@ -267,11 +272,14 @@ def generateHTML(i, md, fileName):
         #decimal型リスト開始
         if re.search("\d\. (.+)", lines[i+1]):
             result += "<ol>\n"
+        #引用の開始
+        if re.search("^> (.+)", lines[i+1]):
+            result += "<blockquote>\n"
         #コード内の改行は維持
         if isInCode:
             result += "\n\n"
         return result
-    #コード・リスト
+    #コード・リスト・引用
     #コード
     elif isInCode:
         if not re.search("^`", md):
@@ -284,6 +292,9 @@ def generateHTML(i, md, fileName):
     #decimal型リスト
     elif decimalList:
         return "<li>" + decimalList.group(1) + "</li>\n"
+    #引用
+    elif blockquote:
+        return "<p>" + blockquote.group(1) + "</p>\n"
     #H2
     elif h2:
         return "<h2>" + span(h2.group(1)) + "</h2>\n"
