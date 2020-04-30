@@ -217,6 +217,7 @@ header {
 
 .nav {
   height: 55px;
+  padding: 12.5px;
   width: auto;
   margin-left: 50px;
   margin-right: 50px;
@@ -224,11 +225,11 @@ header {
 
 .left {
   text-align: left;
-  height: 35px;
+  height: 30px;
 }
 
 .logo {
-  height: 35px;
+  height: 30px;
   width: auto;
   display: inline-block;
   margin: 0 auto;
