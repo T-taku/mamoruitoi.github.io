@@ -235,6 +235,7 @@ header {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+  padding: 5px;
   position: relative;
 }
 
@@ -249,6 +250,7 @@ header {
   margin-left: 5px;
   margin-right: 5px;
   position: relative;
+  transform: translateY(-50%) translateX(0%);
 }
 
 .nav .title h1 {
@@ -259,6 +261,7 @@ header {
   font-weight: 500;
   line-height: 1;
   margin: 0;
+
 }
 
 .right {
@@ -282,6 +285,7 @@ header {
   margin-left: 5px;
   margin-right: 5px;
   transition: 0.3s;
+  padding: 3px;
 }
 
 .sns img:hover {
