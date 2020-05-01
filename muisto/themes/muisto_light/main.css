@@ -271,8 +271,9 @@ header {
 }
 
 .sns li {
-  display: inline;
+  display: inline-block;
   position: relative;
+  margin: auto;
 }
 
 .sns img {
@@ -280,8 +281,7 @@ header {
   margin-left: 5px;
   margin-right: 5px;
   transition: 0.3s;
-  align-items: center;
-  top: 45%;
+  top: 50%;
   left: 50%;
 }
 
