@@ -276,6 +276,7 @@ header {
 .sns li {
   display: inline-block;
   position: relative;
+  vertical-align:  middle;
   margin: auto;
 }
 
