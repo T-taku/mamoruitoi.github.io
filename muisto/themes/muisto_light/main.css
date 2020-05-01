@@ -255,8 +255,8 @@ header {
   font-size: 14px;
   font-weight: 500;
   margin: 0;
-  transform: translateY(50%) translateX(50%);
-  -webkit-transform: translateY(50%) translateX(50%);
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
 .right {
