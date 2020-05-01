@@ -274,8 +274,6 @@ header {
 .sns li {
   display: inline-block;
   position: relative;
-  margin-top: 3px;
-  margin-bottom: 3px;
 }
 
 .sns img {
