@@ -244,10 +244,10 @@ header {
   height: 30px;
   width: auto;
   display: inline-block;
-  position: relative;
   margin: 0 auto;
+  position: relative;
   top: 50%;
-  left: 50%:
+  left: 50%;
 }
 
 .nav .title h1 {
