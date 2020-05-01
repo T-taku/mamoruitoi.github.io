@@ -227,6 +227,7 @@ header {
 .left {
   text-align: left;
   height: 30px;
+  display: table-cell;
 }
 
 .logo {
@@ -236,34 +237,32 @@ header {
   margin-left: 5px;
   margin-right: 5px;
   padding: 5px;
-  position: relative;
 }
 
 .logo img {
-  margin: 0;
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.nav .title {
+.title {
   height: 30px;
+  line-height: 30px;
   width: auto;
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+  padding: 5px;
 }
 
-.nav .title h1 {
+.title h1 {
   color: #333;
   font-family: 'Noto Sans JP', sans-serif;
   font-feature-settings: "palt";
   font-size: 14px;
   font-weight: 500;
-  vertical-align:  middle;
-  margin: 0;
-
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .right {
@@ -284,10 +283,10 @@ header {
 
 .sns img {
   margin: 0;
-  margin-left: 3px;
-  margin-right: 3px;
-  transition: 0.3s;
-  padding: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+  transition: 0.2s;
+  padding: 2px;
 }
 
 .sns img:hover {
