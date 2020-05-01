@@ -261,7 +261,7 @@ header {
   font-feature-settings: "palt";
   font-size: 14px;
   font-weight: 500;
-  line-height: 1;
+  vertical-align:  middle;
   margin: 0;
 
 }
