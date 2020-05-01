@@ -246,6 +246,8 @@ header {
   display: inline-block;
   position: relative;
   margin: 0 auto;
+  top: 50%;
+  left: 50%:
 }
 
 .nav .title h1 {
@@ -254,6 +256,7 @@ header {
   font-feature-settings: "palt";
   font-size: 14px;
   font-weight: 500;
+  line-height: 1;
   margin: 0;
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
