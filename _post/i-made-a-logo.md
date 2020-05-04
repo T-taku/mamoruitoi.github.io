@@ -1,6 +1,6 @@
 @cover: "header-live-broadcasting.png"
 @title: "生放送のロゴを作った"
-@date: "20-0503-2020"
+@date: "2050-0503-2020"
 @mode: "blog"
 @tags: "Poems"
 
