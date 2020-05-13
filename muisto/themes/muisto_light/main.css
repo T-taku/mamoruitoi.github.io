@@ -245,6 +245,11 @@ header {
   vertical-align: middle;
 }
 
+.body {
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #005b7a;
+}
+
 .title {
   height: 30px;
   line-height: 30px;
