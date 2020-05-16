@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
 #Muisto: A Nostalgic Modern Static Site Generator
 #Developer: Mamoru Itoi(@MamoruItoi)
 
