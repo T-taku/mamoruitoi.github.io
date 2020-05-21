@@ -1,6 +1,6 @@
 @cover: "header-stairs.png"
 @title: "「※言語学の専門家ではありません。あしからず」な人が言語を作っている話"
-@date: "1600-0507-2020"
+@date: "2200-0507-2020"
 @mode: "blog"
 @tags: "Poems"
 
