@@ -4,7 +4,7 @@
 @mode: "blog"
 @tags: "Essays"
 
-Essaysというのは[Poems](https://mamoruitoi.github.io/tags/poems)よりも多少真面目なことを書くという意思表示です。以下、学会での発表という体で左利きについての考察を書いていきます。書いている人はもちろん左利きです。
+Essaysというのは[Poems](https://mamoruitoi.github.io/tags/Poems.html)よりも多少真面目なことを書くという意思表示です。以下、学会での発表という体で左利きについての考察を書いていきます。書いている人はもちろん左利きです。
 
 # Summary
 「左利き」というアトリビュートは人生において幸と不幸の両方を生む。
